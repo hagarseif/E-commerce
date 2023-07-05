@@ -3,10 +3,13 @@ import {ReactComponent as Heart} from '../../images/Vector.svg'
 import {ReactComponent as User} from '../../images/user.svg'
 import {ReactComponent as Search} from '../../images/search.svg'
 import {ReactComponent as Logo} from '../../images/logo.svg'
+import {ReactComponent as Suser} from '../../images/usersquare.svg'
+import {ReactComponent as Buser} from '../../images/usersquareb.svg'
 import styles from './Navbar.module.scss'
 import { NavLink } from 'react-router-dom'
 function Navbar() {
   return (
+    <>
     <div className={styles.nav}>
         <div className={styles.logo}>
             <Logo/>
@@ -26,10 +29,22 @@ function Navbar() {
             <Search className={styles.icon}/>
             <User className={styles.icon}/>
             <Heart className={styles.icon}/>
-            <Cart className={styles.icon}/>
+            <Cart className={styles.icon}/>       
+        </div>
         </div>
 
-    </div>
+       <div className={styles.toggle_list}>
+                <div className={styles.login}>
+                    <Suser/>
+                    <span>تسجيل الدخول</span>
+                </div>
+                <div className={styles.login}>
+                    <Buser/>
+                    <span>تسجيل جديد</span>
+                </div>
+            </div>
+            
+    </>
   )
 }
 

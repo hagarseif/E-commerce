@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600&family=Istok+Web:wght@400;700&family=Roboto:wght@100;300;400;500&family=RocknRoll+One&display=swap');
+
 body{
     direction: rtl;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 .nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color:#93CADE08;
+    padding: 2rem 0;
     .list{
         display: flex;
         list-style: none;
@@ -18,8 +26,10 @@ body{
             color: var(--black-color);
             font-size: 1rem;
             font-family: "El Messiri";
+            opacity: .9;
         }
     }
+
     .icons{
         display: flex;
         padding: 0.25rem;
@@ -31,5 +41,42 @@ body{
             height: 1.125rem;
             
         }
+    }
+}
+.toggle_list{
+    display: none;
+    flex-direction: column;
+    background-color: var(--white-color);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding:  2rem;
+    box-shadow: 0px 15px 15px 5px rgba(0, 0, 0, 0.05);
+    width: 200px;
+    gap: 1rem;
+    position: relative;
+
+    &::after{
+        content: "";
+        position: absolute;
+        top: -1.3rem;
+        left: 50%;
+        margin-right: .9rem;
+        border-width: 10px;
+        border-style: solid;
+        border-color: transparent transparent red transparent;
+    }
+    .login
+{
+        display: flex;
+        gap: .9rem;
+    }
+    span{
+        color: var(--text-color);
+        font-family: "El Messiri";
+        font-size: .8rem;
+        font-weight: 200;
     }
 }
