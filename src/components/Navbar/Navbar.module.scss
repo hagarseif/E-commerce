@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600&family=Istok+Web:wght@400;700&family=Roboto:wght@100;300;400;500&family=RocknRoll+One&display=swap');
+body{
+    direction: rtl;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .list{
+        display: flex;
+        list-style: none;
+        padding: 0.5rem;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        .link{
+            text-decoration: none;
+            color: var(--black-color);
+            font-size: 1rem;
+            font-family: "El Messiri";
+        }
+    }
+    .icons{
+        display: flex;
+        padding: 0.25rem;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+        .icon{
+            width: 1.125rem;
+            height: 1.125rem;
+            
+        }
+    }
+}
