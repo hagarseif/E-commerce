@@ -1,0 +1,22 @@
+.services{
+    display:grid;
+    grid-template-columns:repeat(4,23%);
+    padding:5rem 0 2rem;
+    justify-content: center;
+
+    .service{
+        display: flex;
+        gap: .5rem;
+        align-items: center;
+        .text{
+            font-family: Tajawal;
+            span{
+                font-weight: 500;
+            }
+            p{
+                font-weight: 200;
+            }
+
+        }
+    }
+}
