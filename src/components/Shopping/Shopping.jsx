@@ -43,12 +43,14 @@ export default function Shopping() {
     slidesPerView={3} 
     autoplay  navigation={true} 
     modules={[ Navigation]} className="mySwiperr">
+                
     
         {
             product.map((p,i)=>{
            return(
-    <SwiperSlide>
-         <div className={styles.products}>
+    <SwiperSlide key={p.id}>
+
+            <div className={styles.products} key={p.id}>
             <div className={styles.product} key={p.id}>
                                  <img src={images[i]} alt="product"/>
                                  <div className={styles.txt}>
@@ -71,11 +73,12 @@ export default function Shopping() {
                                  <span>XL</span>
                                  </div>
                             </div>
-        </div>
+                            </div>
         </SwiperSlide>
            )
          })
         }
+        
     </Swiper>
     </div>
   )

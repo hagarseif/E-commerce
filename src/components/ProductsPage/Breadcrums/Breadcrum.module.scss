@@ -1,0 +1,49 @@
+.breadcrums{
+    .bnr{
+        img{
+            width: 100%;
+        }
+        .txt{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transform: translateY(-240%);
+            -webkit-transform: translateY(-240%);
+            -moz-transform: translateY(-240%);
+            -ms-transform: translateY(-240%);
+            -o-transform: translateY(-240%);
+            h2
+            {
+                font-family: Tajawal;
+                font-size: 2rem;
+                font-style: normal;
+                font-weight: 900;
+                color: var(--white-color);
+                margin-bottom: 1rem;
+            }
+            .crumb{
+        
+                a{
+                text-decoration: none;
+                color: var(--white-color);
+                font-family: Tajawal;
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 400;
+                &::after{
+                    content: '/';
+                    margin: 0 .5rem;
+                    color: var(--black-color);
+                }
+                &:last-child::after{
+                    display: none;
+                }
+        
+                }
+               
+            }
+
+        }
+    }
+   
+}
