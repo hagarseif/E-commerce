@@ -1,0 +1,43 @@
+.footer{
+    margin-top: 4rem;
+    background-color:#54A4AF;
+    padding: 2rem 0;
+    ul{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        gap: 1rem;
+        li{
+            .link{
+                color: var(--white-color);
+                font-family: El Messiri;
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 400;
+                text-decoration: none;
+            }
+        }
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 1rem;
+        .icon{
+            width: 40px;
+        }
+
+    }
+    h4,p{
+        text-align: center;
+        color: var(--white-color);
+        margin-top: 1rem;
+        font-family: "El Messiri";
+    }
+    h4{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+}

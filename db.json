@@ -1,19 +1,140 @@
+
+
 {
-  "posts": [
+  "product": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "قميص رجالي",
+      "size": "M",
+      "color":"blue",
+      "stars":4,
+      "priceAfterDiscount": 200,
+      "priceBeforeDiscount": 250
+    },
+    {
+      "id": 2,
+      "name": " جاكت أطفالى",
+      "size": "L",
+      "color":"blue",
+      "stars":3,
+      "priceAfterDiscount": 300,
+      "priceBeforeDiscount": 400
+    },
+    {
+      "id": 3,
+      "name": "فستان قصير",
+      "size": "S",
+      "color":"white",
+      "stars":4,
+      "priceAfterDiscount": 675,
+      "priceBeforeDiscount": 800
+    },
+    {
+      "id": 4,
+      "name": "بلوزة نسائي",
+      "size": "XL",
+      "color":"white",
+      "stars":5,
+       "priceAfterDiscount": 380,
+      "priceBeforeDiscount": 520
+    },
+    {
+      "id": 5,
+      "name": "فستان طويل",
+      "size": "2XL",
+      "color":"black",
+      "stars":3,
+      "priceAfterDiscount": 400,
+      "priceBeforeDiscount": 500
+    },
+    {
+      "id": 6,
+      "name": "فستان سهرة",
+      "size": "M",
+      "color":"blue",
+      "stars":4,
+       "priceAfterDiscount": 350,
+      "priceBeforeDiscount": 450
+    },
+    {
+      "id": 7,
+      "name": "تيشيرت رجالي",
+      "size": "L",
+      "color":"gray",
+      "stars":5,
+      "priceAfterDiscount": 280,
+      "priceBeforeDiscount": 320
+    },
+    {
+      "id": 8,
+      "name": "بلوزة اطفالى",
+      "size": "S",
+      "color":"white",
+      "stars":3,
+      "priceAfterDiscount": 350,
+      "priceBeforeDiscount": 480
     }
   ],
-  "comments": [
+
+
+
+
+
+
+
+  "cart": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "قميص رجالي",
+      "size": "M",
+      "color":"gray",
+       "priceAfterDiscount": 600 ,
+      "priceBeforeDiscount": 850
+    },
+    {
+      "id": 2,
+      "name": " جاكت أطفالى",
+      "size": "L",
+      "priceAfterDiscount": 300,
+      "priceBeforeDiscount": 400
+    },
+    {
+      "id": 3,
+      "name": "فستان قصير",
+      "size": "S",
+      "priceAfterDiscount": 475,
+      "priceBeforeDiscount": 600
+    },
+    {
+      "id": 4,
+      "name": "فستان نسائي",
+      "size": "XL",
+       "priceAfterDiscount": 680,
+      "priceBeforeDiscount": 720
+    },
+    {
+      "id": 5,
+      "name": "فستان طويل",
+      "size": "2XL",
+      "priceAfterDiscount": 400,
+      "priceBeforeDiscount": 500
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+
+
+
+
+
+
+
+
+
+  "user": [
+    {
+      "id": "username",
+      "name": "Name",
+      "password": "password",
+      "email": "email@gmail.com"
+    }
+  ]
 }

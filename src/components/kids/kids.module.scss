@@ -1,0 +1,55 @@
+.kids{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: #BDE6FC;
+    height: 90vh;
+    overflow: hidden;
+
+    .txt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .off{
+            font-family: Tajawal;
+            font-size: 1.5rem;
+            font-style: normal;
+            font-weight: 500;
+        }
+        h2{
+            color: #9363B5;
+            text-align: right;
+            font-family: Tajawal;
+            font-size: 3rem;
+            font-style: normal;
+            font-weight: 900;
+        }
+    }
+    .kid_img2{
+        height: 550px;
+        width: 400px;
+    }
+    .kid_img{
+        height: 480px;
+        width: 400px;
+        transform: translateY(23%);
+        -webkit-transform: translateY(23%);
+        -moz-transform: translateY(23%);
+        -ms-transform: translateY(23%);
+        -o-transform: translateY(23%);
+}
+    .time{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap:1rem;
+        margin-top: 1rem;
+        span{
+            text-align: center;
+            font-family: Tajawal;
+            font-size: 2rem;
+            font-style: normal;
+            font-weight: 600;
+        }
+    }
+}

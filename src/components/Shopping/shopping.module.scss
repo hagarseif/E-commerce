@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&family=Roboto:wght@100;300;400;500&family=RocknRoll+One&display=swap');
+
+
+
+ .contain_pro{
+    padding-top: 4rem;
+    padding: 4rem 2rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    overflow: hidden;
+    .categories{
+        width:43%;
+        height: fit-content;
+        margin-left: 1rem;
+
+        ul{
+            list-style: none;
+            border:1px solid rgba(68, 68, 68, 0.20);
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+            overflow: hidden;
+
+            li:not(:last-child){
+                border-bottom: 1px solid rgba(68, 68, 68, 0.20);
+            }
+            li{
+                padding: 1rem 2rem;
+            }
+            .link,li{
+                text-decoration: none;
+                color: rgba(0, 0, 0, 0.80);
+                text-align: right;
+                font-family: Tajawal;
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 400;
+
+            }
+            .li{
+                color: var(--white-color);
+                background-color: var(--main-color);
+            }
+        }
+
+    }
+  .products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem 0rem;
+    justify-content: center;
+    padding-right: 2rem;
+
+    .product{
+        width: 100%;
+
+        .txt{
+            display: grid;
+            grid-template-columns:3fr 1fr;
+            margin:1rem ;
+
+
+            .p_name{
+                font-family: Tajawal;
+                font-size: 1.15063rem;
+                font-style: normal;
+                font-weight: 500;
+                color: rgba(0, 0, 0, 0.70);
+            }
+            .price{
+                color: var(--main-color);
+                text-align: center;
+                font-family: "Roboto";
+                font-size: 1.15063rem;
+                font-style: normal;
+                font-weight: 600;
+            }
+            .old_price{
+                text-decoration: line-through;
+                font-size: 0.86294rem;
+                font-weight: 400;
+
+            }
+        }
+        .size{
+            margin-right: 1rem;
+
+            span{
+                margin-left: .3rem;
+                font-family: Tajawal;
+                font-size: 1.15838rem;
+                font-style: normal;
+                font-weight: 300;
+                border: 1px solid rgba(0, 0, 0, 0.30);
+                padding: .1rem .6rem;
+            }
+
+        }
+    }
+
+  }
+ }
+ :global(.mySwiperr){
+    :global(.swiper){
+        background-color: var(--back-color) !important;
+        padding-bottom: 1rem !important;
+
+    }
+    :global(.swiper-button-next), 
+    :global(.swiper-button-prev){
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        color:var(--white-color) !important;
+        background:var(--main-color) !important;
+        width:45px !important;
+        height:45px !important;
+        border-radius: 50% !important;
+        transition:0.4s !important;
+        border: 0 !important;
+        -webkit-border-radius: 50% !important;
+        -moz-border-radius: 50% !important;
+        -ms-border-radius: 50% !important;
+        -o-border-radius: 50% !important;
+        -webkit-transition:0.4s !important;
+        -moz-transition:0.4s !important;
+        -ms-transition:0.4s !important;
+        -o-transition:0.4s !important;
+} 
+     
+    :global(.swiper-button-next:hover), 
+    :global(.swiper-button-next.active), 
+    :global(.swiper-button-prev:hover), 
+    :global(.swiper-button-prev:active){ 
+     background-color:var(--main-color) !important; 
+    } 
+     
+    :global(.swiper-button-next::after), 
+    :global(.swiper-button-prev::after){ 
+        font-size:.8rem !important; 
+    } 
+     
+    :global(.swiper-pagination){ 
+    position:relative !important; 
+    margin-block:1rem !important; 
+    border:1px solid #EAEAEA; 
+    padding:0.5rem 1rem; 
+    border-radius:40px; 
+    width:-ms-fit-content; 
+    width:-moz-fit-content; 
+    /*Firefox*/ 
+    width:fit-content!important; 
+    /*MicrosoftEdge*/ 
+    margin-inline:auto; 
+    } 
+     
+    :global(.swiper-pagination span){ 
+    background-color:var(--main-color) !important; 
+    }
+}

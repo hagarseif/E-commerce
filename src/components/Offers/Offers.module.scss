@@ -1,0 +1,37 @@
+.offers{
+    display: grid;
+    grid-template-columns: repeat(2,40%);
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem 0;
+    .offer1{
+        background-color: #D6F7FE;
+    }
+    .offer2{
+        background-color: #FFDBDF;
+    }
+    .offer{
+        display: flex;
+        align-items: center;
+        .text{
+            display: flex;
+            flex-direction: column;
+            font-family: Tajawal;
+            align-items: flex-start;
+            
+            h4{
+                font-size: 1.5rem;
+                font-weight: 600;
+            }
+            .txt1{
+                font-weight: 500;
+            }
+            .txt2{
+                text-decoration: none;
+                color: var(--black-color);
+                font-weight: 300;
+            }
+
+        }
+    }
+}

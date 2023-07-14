@@ -1,0 +1,29 @@
+.brands{
+    margin-top: 3rem;
+        h4{
+            text-align: center;
+            font-family: Tajawal;
+            font-size: 1.3rem;
+            margin-bottom: 3rem;
+            position: relative;
+            &::after{
+                content: "";
+                position: absolute;
+                bottom: -40%;
+                left: 47.5%;
+                width: 5.5%;
+                height: 3px;
+                background-color: var(--main-color);
+            }
+        }
+.brand{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+
+    img{
+        width: 120px;
+        
+    }
+}
+}
