@@ -3,14 +3,19 @@
     display: flex;
     justify-content: space-around;
     background-color: #BDE6FC;
-    height: 90vh;
+    height: 70vh;
     overflow: hidden;
+    position: relative;
 
     .txt{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        position: absolute;
+        left: 35%;
+        top: 30%;
+        
         .off{
             font-family: Tajawal;
             font-size: 1.5rem;
@@ -27,17 +32,17 @@
         }
     }
     .kid_img2{
-        height: 550px;
-        width: 400px;
+        height: 80%;
+        width: 22rem;
+        position: absolute;
+        right: 10%;
     }
     .kid_img{
-        height: 480px;
-        width: 400px;
-        transform: translateY(23%);
-        -webkit-transform: translateY(23%);
-        -moz-transform: translateY(23%);
-        -ms-transform: translateY(23%);
-        -o-transform: translateY(23%);
+        height: 80%;
+        width: 22rem;
+        position: absolute;
+        bottom: 0;
+        left: 10%;
 }
     .time{
         display: grid;
