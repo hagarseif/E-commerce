@@ -30,7 +30,7 @@ export default function Shopping() {
   return (
     <div className={styles.contain_pro}>
         <div className={styles.categories}>
-            <ul className={styles.list}>
+            <ul className={styles.listtt}>
                 <li className={styles.li}>تسوق عبر الفئات</li>
                 <li><Link className={styles.link} to='/'> رجالى</Link></li>
                 <li><Link className={styles.link} to='/'> نسائى </Link></li>
@@ -43,8 +43,6 @@ export default function Shopping() {
     slidesPerView={3} 
     autoplay  navigation={true} 
     modules={[ Navigation]} className="mySwiperr">
-                
-    
         {
             product.map((p,i)=>{
            return(

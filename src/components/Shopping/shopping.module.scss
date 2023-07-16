@@ -14,7 +14,7 @@
         height: fit-content;
         margin-left: 1rem;
 
-        ul{
+        .list{
             list-style: none;
             border:1px solid rgba(68, 68, 68, 0.20);
             border-radius: 20px;
@@ -29,6 +29,7 @@
             }
             li{
                 padding: 1rem 2rem;
+                margin: 0;
             }
             .link,li{
                 text-decoration: none;
@@ -52,10 +53,15 @@
     grid-template-columns: repeat(3,1fr);
     gap: 2rem 0rem;
     justify-content: center;
-    padding-right: 2rem;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2rem;
+    position: relative;
+    padding:0 3rem;
 
+    
     .product{
-        width: 100%;
+
 
         .txt{
             display: grid;
@@ -103,6 +109,7 @@
 
   }
  }
+
  :global(.mySwiperr){
     :global(.swiper){
         background-color: var(--back-color) !important;
@@ -142,7 +149,12 @@
     :global(.swiper-button-prev::after){ 
         font-size:.8rem !important; 
     } 
-     
+    :global(.swiper-button-prev){ 
+        right:0rem!important;
+    } 
+    :global(.swiper-button-next){ 
+        left:0rem!important;
+    } 
     :global(.swiper-pagination){ 
     position:relative !important; 
     margin-block:1rem !important; 
