@@ -28,10 +28,11 @@
             -ms-border-radius: 20px;
             -o-border-radius: 20px;
             background-color: var(--main-color);
-            padding: .5rem 2rem;
+            padding: .7rem 2rem;
             border: none;
             color: var(--white-color);
             font-family: Tajawal;
+            font-size: 1rem;
 
 }
 
@@ -45,17 +46,21 @@
         place-items: center;
 
         .ellip1{
-            width: 21rem;
+            width: 22rem;
             grid-area: 1 / 1;
+            margin-top:2.7rem ;
+            margin-right: 4rem;
         }
         .ellip2{
             width: 28rem;
             grid-area: 1 / 1;
+            margin-bottom: 5rem;
 
         }
         .ellip3{
-            width: 26rem;
+            width: 27rem;
             grid-area: 1 / 1;
+            margin-right: 3rem;
         }
 }
 }
@@ -73,8 +78,8 @@
         align-items:center;
         color:var(--white-color) !important;
         background:var(--main-color) !important;
-        width:45px !important;
-        height:45px !important;
+        width:50px !important;
+        height:50px !important;
         border-radius: 50% !important;
         transition:0.4s !important;
         border: 0 !important;

@@ -10,7 +10,7 @@ import P5 from '../../images/5.png'
 import P6 from '../../images/6.png'
 import P7 from '../../images/7.png'
 import P8 from '../../images/8.png'
-
+import Container from 'react-bootstrap/Container';
 
 export default function Products() {
     const [product,setproduct]=useState([]);
@@ -23,6 +23,7 @@ export default function Products() {
     },[])
 
   return (
+    <Container fluid>
     <div className={styles.contain_pro}>
         <h4>أﺣﺪث المنتجات</h4>
         <div className={styles.products}>
@@ -37,10 +38,13 @@ export default function Products() {
                                             style={{ fontSize: 40 }}
                                             allowHalf
                                             allowClear={false}/>
-                                    </div>
-                                    <span className={styles.price}>{p.priceAfterDiscount} ج.م</span>
                                     <span className={styles.p_name}>{p.name}</span>
+                                    </div>
+                                    <div className={styles.c_price}>
+                                    <span className={styles.price}>{p.priceAfterDiscount} ج.م</span>
                                     <span className={`${styles.price} ${styles.old_price}`}>{p.priceBeforeDiscount} ج.م</span>
+                                    </div>
+                                   
                                  </div>
                                  <div className={styles.size}>
                                  <span>XS</span>
@@ -56,5 +60,6 @@ export default function Products() {
 
         </div>
     </div>
+    </Container>
   )
 }

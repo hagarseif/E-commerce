@@ -75,12 +75,19 @@
     margin-top: 2rem;
     gap: 2rem 0rem;
     justify-content:center;
+    align-items: center;
     margin-right: 2rem;
+    padding: 2rem;
     .product{
+      margin: auto;
+      .c_price{
+        display: flex;
+        flex-direction: column;
+      }
         .txt{
-            display: grid;
-            grid-template-columns:2fr 1fr;
-            margin:1rem  1rem ;
+            display: flex;
+            align-items: center;
+            margin:1rem  ;
             .p_name{
                 font-family: Tajawal;
                 font-size: 1.15063rem;
