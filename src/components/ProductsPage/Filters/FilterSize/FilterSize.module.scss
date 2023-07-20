@@ -1,0 +1,25 @@
+.sizeFilter{
+    margin-bottom: 1rem;
+    .toggleList{
+        h4{
+            color: rgba(0, 0, 0, 0.65);
+            font-family: Tajawal;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            margin-right: .5rem;
+            display: inline-block;
+        }
+        }
+        .size{
+        span{
+            margin-left: .3rem;
+            font-family: Tajawal;
+            font-size: 1.15838rem;
+            font-style: normal;
+            font-weight: 400;
+            border: 1px solid rgba(0, 0, 0, 0.30);
+            padding: .1rem .6rem;
+        }
+    }
+}

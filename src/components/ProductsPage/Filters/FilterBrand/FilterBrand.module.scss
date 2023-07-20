@@ -1,0 +1,25 @@
+.brandFilter{
+    margin-bottom: 1rem;
+
+    .toggleList{
+        h4{
+            color: rgba(0, 0, 0, 0.65);
+            font-family: Tajawal;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            margin-right: .5rem;
+            display: inline-block;
+        }
+        }
+        ul{
+            list-style: none;
+            li{
+                font-family: Tajawal;
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 500;
+                margin-bottom: .2rem;
+            }
+        }
+}

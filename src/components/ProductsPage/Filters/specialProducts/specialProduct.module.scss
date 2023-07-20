@@ -1,0 +1,41 @@
+.specialProduct {
+  margin-top: 1rem;
+  .toggleList {
+    h4 {
+      color: rgba(0, 0, 0, 0.65);
+      font-family: Tajawal;
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      margin-right: 0.5rem;
+      display: inline-block;
+    }
+  }
+  .products {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    .card {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      .txt {
+        span {
+          color: rgba(0, 0, 0, 0.6);
+          font-family: Tajawal;
+          font-size: 1rem;
+          font-weight: 500;
+        }
+        h4 {
+          color: rgba(0, 0, 0, 0.6);
+          text-align: right;
+          font-family: Tajawal;
+          font-size: 1.25rem;
+          font-style: normal;
+          font-weight: 700;
+          margin-top: .5rem;
+        }
+      }
+    }
+  }
+}

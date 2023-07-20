@@ -1,0 +1,56 @@
+.filter{
+    width: 25%;
+    padding-right: 2rem;
+    .cat_filter{
+        .toggleList{
+
+        h4{
+            color: rgba(0, 0, 0, 0.65);
+            font-family: Tajawal;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            margin-right: .5rem;
+            display: inline-block;
+
+
+        }
+        }
+        .mainList{
+            li{
+                display: flex;
+                justify-content: space-between;
+                font-family: Tajawal;
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 500;
+                margin-bottom: .3rem;
+                cursor: pointer;
+                &:hover{
+                    color: var(--main-color);
+                }
+            }
+            .hideList{
+                display: none;
+            }
+            ul{
+                margin-right: 2rem;
+
+                li{
+                    a{
+                        font-family: Tajawal;
+                        font-size: 1rem;
+                        font-style: normal;
+                        font-weight: 500;
+                        text-decoration: none;
+                        color: var(--black-color);
+                        &:hover{
+                            color: var(--main-color);
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}

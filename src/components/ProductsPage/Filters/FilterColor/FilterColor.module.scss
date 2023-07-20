@@ -1,0 +1,46 @@
+.colorFilter{
+    margin-bottom: 1rem;
+    .toggleList{
+        h4{
+            color: rgba(0, 0, 0, 0.65);
+            font-family: Tajawal;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            margin-right: .5rem;
+            display: inline-block;
+        }
+        }
+        .color{
+            display: flex;
+            gap: .5rem;
+            align-items: center;
+            span{
+                width: 1.5rem;
+                height: 1.5rem;
+                border: 1px solid #eee;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                &:nth-child(1){
+                    background-color: black;
+                }
+                &:nth-child(3){
+                    background-color: red;
+                }
+                &:nth-child(2){
+                    background-color: #fff;
+                }
+                &:nth-child(4){
+                    background-color: blue;
+                }
+                &:nth-child(5){
+                    background-color: blueviolet;
+                }
+                
+
+}
+        }
+}
